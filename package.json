@@ -1,0 +1,28 @@
+{
+  "name": "alicebot-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AliceBotProject/homepage.git"
+  },
+  "author": "st1020 <stone_1020@qq.com>",
+  "homepage": "https://alicebot.dev/",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.60"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
