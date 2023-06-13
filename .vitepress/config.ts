@@ -28,8 +28,18 @@ export default defineConfig({
 
     nav: [
       { text: "主页", link: "/" },
-      { text: "社区", link: "/community" }
+      { text: "社区", link: "/community" },
+      { text: "OSPP", link: "/ospp/2023" }
     ],
+
+    sidebar: {
+      "/ospp/": [
+        {
+          text: "OSPP",
+          items: [{ text: "OSPP 2023", link: "/ospp/2023" }]
+        }
+      ]
+    },
 
     editLink: {
       pattern: "https://github.com/AliceBotProject/homepage/edit/main/:path",
