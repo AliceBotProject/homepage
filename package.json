@@ -1,5 +1,6 @@
 {
   "name": "alicebot-homepage",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -7,11 +8,11 @@
     "type": "git",
     "url": "git+ssh://git@github.com/AliceBotProject/homepage.git"
   },
-  "author": "st1020 <stone_1020@qq.com>",
+  "author": "st1020 <me@st1020.com>",
   "homepage": "https://alicebot.dev/",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "1.0.0-beta.2"
+    "vitepress": "^1.1.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
