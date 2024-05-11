@@ -36,7 +36,10 @@ export default defineConfig({
       "/ospp/": [
         {
           text: "OSPP",
-          items: [{ text: "OSPP 2023", link: "/ospp/2023" }]
+          items: [
+            { text: "OSPP 2023", link: "/ospp/2023" },
+            { text: "OSPP 2024", link: "/ospp/2024" }
+          ]
         }
       ]
     },
