@@ -29,7 +29,8 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "社区", link: "/community" },
-      { text: "OSPP", link: "/ospp/2023" }
+      { text: "画廊", link: "/gallery/" },
+      { text: "OSPP", link: "/ospp/2023", activeMatch: "/ospp" }
     ],
 
     sidebar: {
